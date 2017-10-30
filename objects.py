@@ -1,14 +1,5 @@
 # -*- coding: utf-8 -*-
 # pylint: disable-msg=
-"""
-Created on Tue May 10 17:36:35 2016
-
-This module contains the definition of all clases representing objects in the
-game.
-
-@author: T. Teijeiro
-"""
-
 import sge
 import random
 import game

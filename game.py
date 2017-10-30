@@ -1,11 +1,5 @@
 # -*- coding: utf-8 -*-
 # pylint: disable=
-"""
-Created on Sat May  7 11:50:42 2016
-
-@author: T. Teijeiro
-"""
-
 import sge
 import objects
 import evolution
@@ -43,7 +37,7 @@ class InvadersGame(sge.dsp.Game):
         """Initializes a new InvadersGame, with all parameters properly set"""
         super(InvadersGame, self).__init__(width=RESX, height=RESY, fps=120,
                                            collision_events_enabled=False,
-                                           window_text="MAT-invaders")
+                                           window_text="SPACE WARS")
         self.gensprite = sge.gfx.Sprite(width=RESX, height=RESY, origin_x=0,
                                         origin_y=0)
         self.scoresprite = sge.gfx.Sprite(width=320, height=120,

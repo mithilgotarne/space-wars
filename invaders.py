@@ -1,11 +1,5 @@
 # -*- coding: utf-8 -*-
 # pylint: disable=
-"""
-Created on Tue May  3 18:34:45 2016
-
-@author: P. Rodriguez-Mier and T. Teijeiro
-"""
-
 import sge
 import game
 import objects
